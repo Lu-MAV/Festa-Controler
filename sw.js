@@ -1,5 +1,5 @@
 const CACHE = "festa-controler-v1";
-const ASSETS = ["/festa-controler/", "/festa-controler/index.html"];
+const ASSETS = ["/Festa-Controler/", "/Festa-Controler/index.html"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
@@ -12,5 +12,5 @@ self.addEventListener("activate", e => {
 });
 
 self.addEventListener("fetch", e => {
-  e.respondWith(caches.match(e.request).then(r => r || fetch(e.request).catch(() => caches.match("/festa-controler/index.html"))));
+  e.respondWith(caches.match(e.request).then(r => r || fetch(e.request).catch(() => caches.match("/Festa-Controler/index.html"))));
 });

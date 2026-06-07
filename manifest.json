@@ -2,7 +2,7 @@
   "name": "Festa Controler",
   "short_name": "Festa Controler",
   "description": "Organizador completo da festa da Lívia",
-  "start_url": "/festa-controler/",
+  "start_url": "/Festa-Controler/",
   "display": "standalone",
   "background_color": "#0ABAB5",
   "theme_color": "#0ABAB5",
